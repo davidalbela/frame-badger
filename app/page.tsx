@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeia5wrno4y7u6kp5yw7rqcfwhovtbm7kjnc74irbkenuewrpmmefei/1.png`,
+  image: `https://bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea.ipfs.dweb.link/`],
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
