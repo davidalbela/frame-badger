@@ -11,7 +11,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       return new NextResponse(`<!DOCTYPE html><html><head>
     <title>Honey Badger with Glasses</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeia5wrno4y7u6kp5yw7rqcfwhovtbm7kjnc74irbkenuewrpmmefei/5.png" />
+    <meta property="fc:frame:image" content="https://bafybeia5wrno4y7u6kp5yw7rqcfwhovtbm7kjnc74irbkenuewrpmmefei.ipfs.dweb.link/5.png" />
     <meta property="fc:frame:button:1" content="Learn about Honey Badger meme" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
@@ -20,7 +20,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
     <meta property="fc:frame" content="vNext" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeia5wrno4y7u6kp5yw7rqcfwhovtbm7kjnc74irbkenuewrpmmefei/${id}.png" />
+    <meta property="fc:frame:image" content="https://bafybeia5wrno4y7u6kp5yw7rqcfwhovtbm7kjnc74irbkenuewrpmmefei.ipfs.dweb.link/${id}.png" />
     <meta property="fc:frame:button:1" content="Next Page" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=${nextId}" />
   </head></html>`);
