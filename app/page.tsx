@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `https://bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea.ipfs.dweb.link/`],
+  image: `https://bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea.ipfs.dweb.link`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Honey Badger',
     description: 'A honey badger',
-    images: [`https://bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea.ipfs.dweb.link/`],
+    images: [`https://bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea.ipfs.dweb.link`],
   },
   other: {
     ...frameMetadata,
