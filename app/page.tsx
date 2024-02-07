@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Honey Badger',
     description: 'A honey badger',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea`],
+    images: [`https://bafybeifoksxtoyd23eshxysus55h66renmnqjkbswq5tnmmygzaeepo3ea.ipfs.dweb.link/`],
   },
   other: {
     ...frameMetadata,
